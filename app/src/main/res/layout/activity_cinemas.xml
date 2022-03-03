@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Cinemas">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="#b72335"
+            android:text="BLOCKBUSTERS"
+            android:textAlignment="center"
+            android:textColor="#f3fafbff"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:layout_width="448dp"
+            android:layout_height="245dp"
+            android:layout_marginBottom="15dp"
+            android:background="#fdfcfc"
+            android:text="Address:Level-5,Jamuna Future Park.\nShow Time:12.00 pm and 3.05 pm and 7.05 pm \nClose:Tues Day\nRatings:4.0 out of 5 \nGoogle reviews:1,264. \nPhone: 01913-399015"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#b72335"
+            android:textAlignment="center"
+            android:text="Movie Schedule"
+            android:textColor="#f3fafbff"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            android:background="@drawable/buttonsblue"
+            android:onClick="OpenToday"
+            android:text="today's"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="tomorrow's"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:background="@drawable/buttonsblue"
+            android:onClick="OpenTomorrow"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Next few days"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:background="@drawable/buttonsblue"
+            android:onClick="NextFew"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="ticket price"
+            android:textColor="#000"
+            android:background="@drawable/buttonsblue"
+            android:textSize="20dp"
+            android:onClick="Ticket"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

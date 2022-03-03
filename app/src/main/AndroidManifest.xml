@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dipeshshome.theeasyfindings_jfp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartpageRelated.StartActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClothingRelated.clothing" />
+        <activity android:name=".BankandATM.atmservice" />
+        <activity android:name=".BankandATM.brack" />
+        <activity android:name=".BankandATM.citybank" />
+        <activity android:name=".BankandATM.UCBL" />
+        <activity android:name=".BankandATM.JBL" />
+        <activity android:name=".BankandATM.MTB" />
+        <activity android:name=".BankandATM.easternbl" />
+        <activity android:name=".Cinemas" />
+        <activity android:name=".ClothingRelated.MenandWomen" />
+        <activity android:name=".ClothingRelated.womenclothing" />
+        <activity android:name=".ClothingRelated.aarong" />
+        <activity android:name=".ClothingRelated.infinity" />
+        <activity android:name=".ClothingRelated.anjans" />
+        <activity android:name=".ClothingRelated.artisan" />
+        <activity android:name=".ClothingRelated.easy" />
+        <activity android:name=".ClothingRelated.ecstesy" />
+        <activity android:name=".ClothingRelated.illiyeen" />
+        <activity android:name=".StartpageRelated.login" />
+        <activity android:name=".DatabaseRelated.DatabaseMain" />
+        <activity android:name=".BabyandKids" />
+        <activity android:name=".FoodCourt" />
+        <activity android:name=".themepark" />
+        <activity android:name=".update" />
+        <activity android:name=".StartpageRelated.secondpage" />
+        <activity android:name=".Homedecor" />
+        <activity android:name=".jwellery" />
+        <activity android:name=".Mobileaccessories" />
+        <activity android:name=".caccessories" />
+        <activity android:name=".Handicrafts" />
+    </application>
+
+</manifest>

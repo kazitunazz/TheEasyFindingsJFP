@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Mobileaccessories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DETAILS"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#fcfafa"
+            android:layout_marginBottom="10dp"
+            android:background="#0c1286"/>
+
+
+        <TextView
+            android:id="@+id/showdata"
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#f9f6f6"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18dp"/>
+
+
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="IHome"
+            android:layout_marginBottom="25dp"
+            android:textColor="#f9f5f5"
+            android:onClick="Open"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="Take and Talk"
+            android:layout_marginBottom="25dp"
+            android:textColor="#f9f5f5"
+            android:onClick="Open1"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginBottom="25dp"
+            android:text="     Vision Emporium"
+            android:textColor="#f9f5f5"
+            android:onClick="Open2"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:layout_marginBottom="25dp"
+            android:text="   Gadget and Gear"
+            android:textColor="#f9f5f5"
+            android:onClick="Open3"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:layout_marginBottom="25dp"
+            android:text="Camera World"
+            android:textColor="#f9f5f5"
+            android:onClick="Open4"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:layout_marginBottom="25dp"
+            android:text="ASUS Zenfone"
+            android:textColor="#f9f5f5"
+            android:onClick="Open5"/>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:layout_marginBottom="25dp"
+            android:text="          Walton Smart Zone"
+            android:textColor="#f9f5f5"
+            android:onClick="Open6"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

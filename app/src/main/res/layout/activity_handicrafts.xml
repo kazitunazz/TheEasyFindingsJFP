@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Handicrafts">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#a4a2a2"
+            android:text="STORE DIRECTION"
+            android:textColor="#f9f7f7"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/showdata"
+            android:layout_width="match_parent"
+            android:layout_height="1077dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#f9f6f6"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18dp"
+             />
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/sacha"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:text="         Sachatan handicrafts"
+            android:background="@drawable/redbuttongo"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:onClick="Open"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/kay"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:textColor="#fff"
+            android:text="Kay Krafts"
+            android:background="@drawable/redbuttongo"
+            android:textSize="20dp"
+            android:onClick="Open1"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/infi"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:text="Infinity "
+            android:background="@drawable/redbuttongo"
+            android:textSize="20dp"
+            android:onClick="Open2"/>
+        <Button
+            android:id="@+id/exo"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#fff"
+            android:text="Exotic shop "
+            android:background="@drawable/redbuttongo"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:onClick="Open3"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

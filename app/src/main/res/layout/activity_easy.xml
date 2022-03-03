@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".ClothingRelated.easy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DETAILS"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="#fcfafa"
+            android:layout_marginBottom="10dp"
+            android:background="#0c1286"/>
+
+        <TextView
+            android:id="@+id/showdata"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#f9f6f6"
+          android:textColor="#000"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/webpagebuttonblue"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="easy Website"
+            android:layout_marginBottom="25dp"
+            android:textColor="#f9f5f5"
+            android:onClick="Open"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/update"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:background="@drawable/redbuttongo"
+            android:textSize="20dp"
+            android:text="Map View"
+            android:onClick="Openmap"
+            android:textColor="#f9f5f5"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

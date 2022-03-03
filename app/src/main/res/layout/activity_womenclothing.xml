@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ClothingRelated.womenclothing">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="STORE DIRECTORY"
+            android:textAlignment="center"
+            android:background="#da1c22"
+            android:textColor="#f3fafbff"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/butongrren2"
+
+            android:text="aboron"
+            android:textColor="#f7f4f7"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonblue2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+            android:textColor="#fbf8fc"
+
+            android:layout_marginBottom="20dp"
+            android:text="Alif Fashion"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonred2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+            android:textColor="#fdfafd"
+
+            android:layout_marginBottom="20dp"
+            android:text="Brand Asia"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonsyl2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+            android:textColor="#faf8fa"
+
+            android:layout_marginBottom="20dp"
+            android:text="evangal"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonviolet2"
+            android:layout_gravity="center"
+
+            android:textColor="#fcfbfc"
+
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:text="             Irani Borka house"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butongrren2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+            android:textColor="#fbf9fc"
+
+            android:layout_marginBottom="20dp"
+            android:text="             Inner collection"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonsyl2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+
+            android:textColor="#fafafa"
+            android:layout_marginBottom="20dp"
+            android:text="                   Mahzabin boutique house"
+            android:textSize="18dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonblue2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+            android:textColor="#fdfbfd"
+
+            android:layout_marginBottom="20dp"
+            android:text="Mahboba"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butongrren2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+
+            android:textColor="#fdfbfd"
+
+            android:layout_marginBottom="20dp"
+            android:text="Noborupa"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/butonred2"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:textColor="#fbf8fc"
+            android:layout_marginBottom="20dp"
+            android:text="           Valencia Secret"
+            android:textSize="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

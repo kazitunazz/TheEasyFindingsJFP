@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ClothingRelated.MenandWomen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+
+            android:id="@+id/buttonmen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:padding="35dp"
+            android:src="@drawable/mendress" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/button1"
+            android:fontFamily="cursive"
+            android:text="  Men Dress\nand \n Lifestyles"
+            android:textAlignment="center"
+            android:textColor="#fefeff"
+            android:textSize="20dp" />
+
+        <ImageButton
+
+            android:id="@+id/buttonwomen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:padding="35dp"
+            android:src="@drawable/womendress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/button1"
+            android:fontFamily="cursive"
+
+            android:text="   Women Dress\nand \n Lifestyles"
+            android:textAlignment="center"
+            android:textColor="#fefeff"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

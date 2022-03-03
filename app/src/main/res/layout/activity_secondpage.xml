@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="#000000"
+        android:fontFamily="cursive"
+        android:text="Catagorized Store"
+        android:textAlignment="center"
+        android:textColor="#f9f7f7"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+
+            android:id="@+id/button6"
+            android:layout_width="103dp"
+            android:layout_height="129dp"
+            android:background="#940207"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="35dp"
+            android:src="@drawable/atm" />
+
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="103dp"
+            android:layout_height="129dp"
+            android:background="#fdfd53"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="35dp"
+            android:src="@drawable/babyandkids" />
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="103dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#69f9f4"
+            android:padding="35dp"
+            android:src="@drawable/clothing" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="65dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+
+                android:text="Bank and ATM"
+                android:textAlignment="center"
+                android:textColor="#f1f1f4"
+                android:textSize="15dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+
+                android:text="  Baby and Kids"
+                android:textAlignment="center"
+                android:textColor="#f7f4f4"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/button1"
+
+                android:text="Clothing"
+                android:textAlignment="center"
+                android:textColor="#f9f6f6"
+                android:textSize="15dp"
+                 />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp">
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#9193f9"
+                android:padding="35dp"
+                android:src="@drawable/cinemas" />
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#f11976"
+                android:padding="35dp"
+                android:src="@drawable/foodcourt" />
+
+            <ImageButton
+                android:id="@+id/button12"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#a40606"
+                android:padding="35dp"
+                android:src="@drawable/homedecor" />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/button1"
+
+            android:text="Cinemas"
+            android:textAlignment="center"
+            android:textColor="#fefeff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="79dp"
+            android:layout_below="@+id/button1"
+            android:text="Food Court"
+            android:textAlignment="center"
+            android:textColor="#fefeff"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/button1"
+
+            android:text="  Home Decor"
+            android:textAlignment="center"
+            android:textColor="#fefeff"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#45e71c"
+                android:padding="35dp"
+                android:src="@drawable/jwellery" />
+
+            <ImageButton
+
+                android:id="@+id/button8"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#e752e7"
+                android:padding="35dp"
+                android:src="@drawable/mobile" />
+
+            <ImageButton
+                android:id="@+id/button9"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#d626777e"
+                android:padding="35dp"
+                android:src="@drawable/themepark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+
+                android:text="Jwellery"
+                android:textAlignment="center"
+                android:textColor="#fefeff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="97dp"
+                android:layout_below="@+id/button1"
+
+                android:text="Mobile and Electronics"
+                android:textAlignment="center"
+                android:textColor="#fefeff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+
+                android:text="    Theme Park"
+                android:textAlignment="center"
+                android:textColor="#fefeff"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp">
+
+            <ImageButton
+
+                android:id="@+id/button10"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#f95d5d"
+                android:padding="35dp"
+                android:src="@drawable/computer" />
+
+
+            <ImageButton
+                android:id="@+id/button11"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#cfb5bb"
+                android:padding="35dp"
+                android:src="@drawable/handicrafts" />
+
+            <ImageButton
+                android:id="@+id/admin"
+                android:layout_width="103dp"
+                android:layout_height="129dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#4013c9"
+                android:padding="35dp"
+                android:src="@drawable/logadmin" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/button1"
+                android:text="Computer  accessories"
+                android:textAlignment="center"
+
+                android:textColor="#fefeff"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/button1"
+                android:text="   Handicrafts"
+                android:textColor="#fefeff"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+
+                android:text="Admin Login"
+                android:layout_marginBottom="40dp"
+                android:textAlignment="center"
+                android:textColor="#fefeff"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/list" />
+
+            <Button
+                android:id="@+id/myplan"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="30dp"
+                android:background="#ac2203"
+                android:text="To DO List"
+                android:textColor="#f9f5f5"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+
+</ScrollView>
